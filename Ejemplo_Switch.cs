@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace semana_3_ejemplo_de_menu_en_consola
 {
-    class Ejemplo_Switch
+    public class Ejemplo_Switch
     {
+        public static void estructura_switch()
+        {
+            System.Console.WriteLine("Switch externo");
+        }
+    
     }
 }
