@@ -28,7 +28,7 @@ namespace semana_3_ejemplo_de_menu_en_consola
             do
             {
                 Console.Clear();
-                 menu_interno();
+                menu_interno();
 
                 System.Console.WriteLine("Ingrese 1 para repetir menú");
                 System.Console.WriteLine("Ingrese 2 para salir");
@@ -89,6 +89,7 @@ namespace semana_3_ejemplo_de_menu_en_consola
 
 
         }
-   
+    }
+}
 
 
