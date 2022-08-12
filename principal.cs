@@ -23,8 +23,9 @@ namespace semana_3_ejemplo_de_menu_en_consola
             System.Console.ReadKey();
 
             int repetir;
-
+            
             //menu_interno();
+            do 
         }
     }
 }
