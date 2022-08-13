@@ -46,7 +46,7 @@ namespace semana_3_ejemplo_de_menu_en_consola
             System.Console.WriteLine("1. Ejemplo If");
             System.Console.WriteLine("2. Ejemplo Switch");
             System.Console.WriteLine("3. Ejemplo For");
-            System.Console.WriteLine("4. Ejemplo Wor");
+            System.Console.WriteLine("4. Ejempl Wor");
             System.Console.WriteLine("5. Ejemplo Do While");
 
             System.Console.WriteLine("Selecciona tu opcion: ");
@@ -83,13 +83,47 @@ namespace semana_3_ejemplo_de_menu_en_consola
                 default:
                     System.Console.WriteLine("opcion no valida");
                     break;
+            }
+        }
+                    //Función interna para ejemplo if
+                    static void programa_if()
+                    {
+                        System.Console.WriteLine("Aqui llamo ejemplo If");
+
+                    }
+
+                    //Función interna para ejemplo switch
+                    static void programa_switch()
+                    {
+                        System.Console.WriteLine("Aqui llamo ejemplo Switch");
+                    }
+
+                    //Función interna para ejemplo for
+                    static void programa_for()
+                    {
+                        System.Console.WriteLine("Aqui llamo ejemplo For");
+                    }
+
+                    //Función interna para ejemplo while
+                    static void programa_while()
+                    {
+                        System.Console.WriteLine("Aqui llamo ejemplo While");
+                    }
+
+                    //Función interna para ejemplo dowhile
+                    static void programa_dowhile()
+                    {
+                        System.Console.WriteLine("Aqui llamo ejemplo DoWhile");
+                    }
+
+
+
 
             }
-
-
-
         }
-    }
-}
+    
+
+    
+
 
 
